@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific element do you want to change to red (e.g., background, text, buttons)?\", \"option1\": \"Background\", \"option2\": \"Text\"}, {\"question 2\": \"Do you have a specific shade of red in mind, or would you like to see a few options?\", \"option1\": \"A specific shade\", \"option2\": \"Show me options\"}], \"input_token_count\": 330, \"output_token_count\": 94, \"time_taken\": \"0:00:01.451628\"}",
+        "message_id": "guest23092024165730",
+        "timestamp": "23092024165736",
+        "component_file_name": "purple_background_cta_component_1724092527",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Make it red",
         "message_id": "guest23092024165730",
