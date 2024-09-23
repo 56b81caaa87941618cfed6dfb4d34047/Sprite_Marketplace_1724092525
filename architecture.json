@@ -10,5 +10,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nCan you describe the project a bit more?\nUser: Make it red\nAI: Absolutely, I'll work on making it catchier!\nUser: Make it even catchier!\nUser: Change to catchier line\nAI: Okay, I'll work on making it catchier.\n\nThis is the user's current request of changes to be made:\nMake it red"
+    },
+    {
+        "level": 1,
+        "task_description": "\n        You previously did not make a code change correctly.\n        You now have one more chance to complete the user's previous request. This is your last chance to make the code change correctly.\n        This is the user's original request: Fix this component please\n        This is the current message they have sent: Fix this component please\n        This is the HTML element ID of the component to be fixed: \n        This is the file name where the component resides: purple_feature_grid_component_1727115230\n        \n        Instructions : Now, make sure you implement the user's request very carefully.\n        "
     }
 ]
