@@ -1,5 +1,29 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add customizable themes (users can choose color schemes)\", \"checked\": false}, {\"feature\": \"Highlight featured sprites with a colored background\", \"checked\": true}, {\"feature\": \"Implement a color picker for sprite backgrounds\", \"checked\": false}, {\"feature\": \"Add category icons with red accents\", \"checked\": true}, {\"feature\": \"Incorporate hover effects that change elements to red\", \"checked\": false}], \"input_token_count\": 284, \"output_token_count\": 100, \"time_taken\": \"0:00:01.607654\"}",
+        "message_id": "guest23092024165730",
+        "timestamp": "23092024165740",
+        "component_file_name": "purple_background_cta_component_1724092527",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "In the conversation, the user requested a catchier line for a project, to which the AI acknowledged the request and agreed to work on making it catchier. The AI then asked the user for more details about the project to better tailor the line to their needs.",
+        "timestamp": "23092024165740",
+        "message_id": "guest23092024165730"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific element do you want to change to red (e.g., background, text, buttons)?\", \"option1\": \"Background\", \"option2\": \"Text\"}, {\"question 2\": \"Do you have a specific shade of red in mind, or would you like to see a few options?\", \"option1\": \"A specific shade\", \"option2\": \"Show me options\"}], \"input_token_count\": 330, \"output_token_count\": 94, \"time_taken\": \"0:00:01.451628\"}",
+        "message_id": "guest23092024165730",
+        "timestamp": "23092024165736",
+        "component_file_name": "purple_background_cta_component_1724092527",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Make it red",
         "message_id": "guest23092024165730",
@@ -16,12 +40,6 @@
         "component_file_name": "",
         "div_id": "",
         "div_action": ""
-    },
-    {
-        "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "23092024165731",
-        "message_id": "guest23092024165730"
     },
     {
         "role": "chat_ui_checklist",
@@ -74,24 +92,6 @@
         "message_id": "guest23092024165136",
         "timestamp": "23092024165142",
         "component_file_name": "purple_background_cta_component_1724092527",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Change to catchier line",
-        "message_id": "guest23092024165136",
-        "timestamp": "23092024165137",
-        "component_file_name": "purple_background_cta_component_1724092527",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Okay, I'll work on making it catchier.",
-        "message_id": "guest23092024165136",
-        "timestamp": "23092024165137",
-        "component_file_name": "",
         "div_id": "",
         "div_action": ""
     }
