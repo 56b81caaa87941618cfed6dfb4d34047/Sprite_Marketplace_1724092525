@@ -2,8 +2,8 @@
   <div>
     <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
       <div class="space-y-3 text-center">
-        <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-        <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+        <h1 class="text-4xl text-gray-800 font-semibold pt-10">Frequently Asked Questions</h1>
+        <p class="text-gray-600 max-w-lg mx-auto text-lg">Everything you need to know about our sprite marketplace</p>
       </div>
       <div class="mt-14 max-w-2xl mx-auto">
         <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -36,11 +36,11 @@ export default {
     return {
       selectedFaq: null,
       faqs: [
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5" }
+        { q: "What is a sprite marketplace?", a: "A sprite marketplace is an online platform where artists can sell and buyers can purchase digital sprite assets for use in games, websites, and other digital projects." },
+        { q: "How do I upload my sprites for sale?", a: "Simply create an account, go to your dashboard, and use our easy upload tool to add your sprite creations. Don't forget to set your price and add relevant tags!" },
+        { q: "What file formats are supported?", a: "We support popular sprite formats including PNG, GIF, and sprite sheets. Each listing can include multiple file types to suit different buyer needs." },
+        { q: "How do royalties work for sprite creators?", a: "Creators earn 80% of each sale. Payments are processed weekly, and you can track your earnings in real-time through your dashboard." },
+        { q: "Can I use purchased sprites in commercial projects?", a: "Yes! Unless otherwise stated in the sprite's listing, all purchases come with a standard commercial license. Always check the specific license details before use." }
       ]
     }
   },
