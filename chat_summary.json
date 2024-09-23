@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific text or line would you like me to revise for catchiness?\", \"option1\": \"Revise the headline\", \"option2\": \"Revise the tagline\"}, {\"question 2\": \"Are there any specific words or phrases you want to include to enhance the catchy factor?\", \"option1\": \"Yes, I have specific words in mind\", \"option2\": \"No, I'm open to suggestions\"}], \"input_token_count\": 306, \"output_token_count\": 98, \"time_taken\": \"0:00:01.848645\"}",
+        "timestamp": "23092024165546",
+        "message_id": "guest23092024165539"
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Absolutely, I'll work on making it catchier!",
         "timestamp": "23092024165541",
