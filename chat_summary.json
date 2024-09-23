@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific line or text do you want to change to a catchier version?\", \"option1\": \"Main headline of the marketplace\", \"option2\": \"Subheading on the homepage\"}, {\"question 2\": \"What tone do you envision for the catchier line?\", \"option1\": \"Playful and fun\", \"option2\": \"Professional and inviting\"}], \"input_token_count\": 285, \"output_token_count\": 88, \"time_taken\": \"0:00:01.616011\"}",
+        "timestamp": "23092024165142",
+        "message_id": "guest23092024165136"
+    },
+    {
         "role": "user",
         "content": "Change to catchier line",
         "timestamp": "23092024165137",
